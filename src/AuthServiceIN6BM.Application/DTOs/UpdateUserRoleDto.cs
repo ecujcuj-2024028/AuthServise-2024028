@@ -1,0 +1,8 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace AuthServiceIN6BM.Application.DTOs;
+
+public class UpdateUserRoleDto
+{
+    public string RoleName { get; set;} = string.Empty;
+}
