@@ -6,4 +6,4 @@ public interface ICloudinaryService
     Task<bool> DeleteImageAsync(string publicId);
     string GetDefaulAvatarUrl();
     string GetFullImageUrl(string imagePath);
-}
+} 
